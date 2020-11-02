@@ -1,4 +1,9 @@
 # WeatherDashboard
+# Dated: 11-01-2020
+# Author: AC
+# Usage javascript, BootStrap, HTML and CSS.
+# Project objective: Create a weather dashboard and bootstrap
+# Acceptance Criteria 
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
