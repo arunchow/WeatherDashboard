@@ -1,0 +1,62 @@
+<!-- Bootcamp Project Module 6 -->
+<!--Version 1.0-->
+<!--Author:AC-->
+<!--Date: 11-01-2020 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../WeatherDashboard/assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <title>Weather Dashbaord</title>
+  </head>
+
+  <body class="flex-column min-100-vh"> 
+    <!-- <div class="container-fluid text-center text-light bg-dark">
+        <h1>Weather Dashboard</h1>
+    </div> -->
+    <header class="hero">
+        <h1 class="app-title">Weather Dashboard</h1>  
+    </header>
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+              <h3 class="card-header text-uppercase">Search By City</h3>
+                <form id="form-city" class="form-inline">
+                    <input id="city-input" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <!--<button id="select-city" class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>-->
+                    <button id="select-city" type="submit" class="btn btn-outline-secondary border-left-0 border" type="button">
+                        <i class="fa fa-search" style="font-size:24px"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+       
+        <div class="col-12 col-md-8">
+            <!-- <h2 class="subtitle"> Weather Dashboard </h2> -->
+            <div id="current" class="row justify-content-md-center">
+                
+            </div>
+            <div id="UVIndex" class="row justify-content-md-center">
+             
+            </div>
+            <div class="row" id="forecast">
+              <!-- <h2 class="subtitle"> 5-Day Forecast </h2>  -->
+           
+            </div> 
+        </div>
+        
+    </main>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../WeatherDashboard/assets/js/searchcity.js"></script>
+  </body>
+</html>
